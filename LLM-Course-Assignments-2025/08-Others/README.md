@@ -46,8 +46,6 @@ app.py: UI展示
 
 更改适配器模块/多尺度融合Image Encoder的不同层/采取多分支解码器+特定模块融合方式（低层-边缘，高层-细节）
 
-采用automatic_mask_generator生成关于前景的伪掩码
-
 采用dice、bce、ssim进行损失监督
 
 采用更多的数据集（DUT-OMRON、ECSSD、HKU-IS、PASCAL-S）
@@ -55,5 +53,6 @@ app.py: UI展示
 数据预处理采取旋转、降低对比度等预操作
 
 UI界面更新
+
 
 
